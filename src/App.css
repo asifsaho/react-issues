@@ -1,32 +1,99 @@
+body {
+  background-color: #f4f8f9;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #275763;
+  font-weight: 500;
+  font-size: 25px;
+}
+
 .App {
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.container {
+  max-width: 1200px;
+  width: calc(100% - 50px);
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+tr {
+  background-color: #fff;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.vert-middle {
+  align-items: center;
+}
+
+.margin-right-15 {
+  margin-right: 15px;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.issue-table {
+  max-height: calc(100vh - 285px);
+  overflow: auto;
+  padding-right: 15px;
+}
+
+.table-row {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #051317;
+  transition: background-color 300ms;
+}
+
+.table-row:hover {
+  background-color: #e8f4f9;
+}
+
+.issue-details {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.issue-title {
+  margin-bottom: 5px;
+}
+
+.issue-status {
+  height: 16px;
+  width: 16px;
+  display: block;
+  border-radius: 50%;
+}
+
+.open {
+  background-color: green;
 }
