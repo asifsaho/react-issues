@@ -9,7 +9,7 @@ const issueRow = (props) => {
                 </div>
                 <div className="issue-details">
                     <div className="issue-title">{props.issue.title}</div>
-                    <div className="flex">
+                    <div className="issue-meta-info">
                         <small><span>ID:</span> #14443</small>
                         <small><span>Created at:</span> Dec 14 2018 19:28</small>
                     </div>
