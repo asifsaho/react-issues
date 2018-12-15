@@ -50,7 +50,9 @@ table {
 }
 
 .issue-table {
+  position: relative;
   max-height: calc(100vh - 285px);
+  height: calc(100vh - 285px);
   overflow: auto;
   padding-right: 15px;
 }
@@ -74,13 +76,27 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 10px;
+}
+
+.issue-meta-info {
+
+}
+
+.issue-meta-info small {
+  margin-right: 5px;
+}
+
+.user {
+  min-width: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .user img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-right: 10px;
 }
 
 .issue-title {
