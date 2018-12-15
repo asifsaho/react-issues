@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import IssueRow from './components/Issue-row';
+import IssueRow from './Issue-row';
 
 describe('Test for IssueRow component', () => {
     it('Renders App Component without crashing', () => {
