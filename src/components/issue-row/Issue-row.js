@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import helpers from '../helpers';
+import helpers from '../../helpers';
 
 const IssueRow = (props) => {
     return(

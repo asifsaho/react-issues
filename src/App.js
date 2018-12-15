@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import IssueRow from './components/Issue-row';
+import IssueRow from './components/issue-row/Issue-row';
 import Preloader from './components/preloader/preloader';
 import dataService from './dataService';
 import './App.css';
