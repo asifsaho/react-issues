@@ -1,3 +1,9 @@
+/**
+ * @desc Format ISO Date to DD-MM-YYYY
+ * @param isoDate
+ * @returns {string}
+ */
+
 function formatDate(isoDate) {
     if ((new Date(isoDate)).toString() === 'Invalid Date') {
         return;
