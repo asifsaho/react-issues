@@ -109,3 +109,23 @@ table {
 .open {
   background-color: green;
 }
+
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    width: calc(100% - 40px);
+  }
+
+  .issue-table {
+    padding-right: 0;
+    min-height: calc(100vh - 63px);
+  }
+}
+
+@media (max-width: 410px) {
+  .issue-meta-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
