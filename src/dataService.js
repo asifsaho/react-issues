@@ -2,8 +2,6 @@ import axios from 'axios';
 
 export default {
     getIssues: () => {
-        console.log(process.env)
-
         return axios({
             method: 'get',
             url: 'https://api.github.com/repos/facebook/react/issues',
