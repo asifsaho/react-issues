@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const issueRow = (props) => {
+const IssueRow = (props) => {
     return(
         <div className="table-row vert-middle margin-bottom-15">
             <div className="flex">
@@ -23,4 +24,8 @@ const issueRow = (props) => {
     );
 };
 
-export default issueRow;
+IssueRow.propTypes = {
+    issue: PropTypes.object
+};
+
+export default IssueRow;
